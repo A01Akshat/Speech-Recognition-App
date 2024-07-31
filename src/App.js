@@ -90,12 +90,12 @@ const App = () => {
       <div className={`content ${showInfoBox ? 'blur' : ''}`}>
         
         <div className='btns'>
-        <h1 className='heading'>𝑺𝒑𝒆𝒂𝒈𝒍𝒆 𝑨𝑰</h1>
-          <button className='strt' onClick={() => SpeechRecognition.startListening({ continuous: true, language: 'en-IN' })}>Start</button>
-          <button className='stp' onClick={SpeechRecognition.stopListening}>Stop</button>
-          <button className='rst' onClick={resetTranscript}>Reset</button>
-          <button className='clr' onClick={clearResults}>Clear Results</button>
-          <button className='ai' onClick={() => setUseAI(!useAI)}>{useAI ? <span style={{ border:"4x solid #f5426f" }}>AI:On</span> : <span>AI:Off</span>}</button>
+        <h1 className='heading'>🇸‌🇵‌🇪‌🇦‌🇬‌🇱‌🇪‌ 🇦‌🇮‌</h1>
+          <button className='strt' onClick={() => SpeechRecognition.startListening({ continuous: true, language: 'en-IN' })}>🇸‌🇹‌🇦‌🇷‌🇹‌</button>
+          <button className='stp' onClick={SpeechRecognition.stopListening}>🇸‌🇹‌🇴‌🇵‌</button>
+          <button className='rst' onClick={resetTranscript}>🇷‌🇪‌🇸‌🇪‌🇹‌</button>
+          <button className='clr' onClick={clearResults}>🇨‌🇱‌🇪‌🇦‌🇷‌ 🇷‌🇪‌🇸‌🇺‌🇱‌🇹‌🇸‌</button>
+          <button className='ai' onClick={() => setUseAI(!useAI)}>{useAI ? <span style={{ border:"4x solid #f5426f" }}>🇦‌🇮‌ : 🇴‌🇳‌</span> : <span>🇦‌🇮‌ : 🇴‌🇫‌🇫‌</span>}</button>
         </div>
         <p className='trans'><b><i>{transcript}</i></b></p>
         <div className='results'>
